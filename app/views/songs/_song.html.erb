@@ -1,0 +1,15 @@
+<div class="container">
+
+  <div class="cover">
+    <%= song.cover %>
+  </div>
+
+  <div class="song details">
+    <p><%= link_to song.title, song %></p>
+    <p><%= link_to song.artist.name, song.artist %></p>
+
+    <p><%= song.year %></p>
+    <p><%= song.chorus %></p>
+
+  </div>
+</div>
