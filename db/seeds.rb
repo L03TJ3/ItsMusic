@@ -18,3 +18,15 @@ Artist.create(
         Their second album was released internationally on April 1",
   image: "graham.jpg"
 )
+
+Song.delete_all
+
+Song.create(
+  title: "7 years",
+  artist_id: 1,
+  year: 2015,
+  chorus: "Once I was seven years old, my momma told me
+           Go make yourself some friends or you'll be lonely
+           Once I was seven years old",
+  cover: "7years.jpg"
+)
