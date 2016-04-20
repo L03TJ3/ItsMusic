@@ -1,15 +1,18 @@
 <div class="container">
 
   <div class="cover">
-    <%= song.cover %>
+    <%= image_tag(song.cover, class: "song_img") %>
   </div>
 
   <div class="song details">
-    <p><%= link_to song.title, song %></p>
-    <p><%= link_to song.artist.name, song.artist %></p>
+    <h2><%= link_to song.title, song %></h2>
+
+    <% if !defined?(hide_artist) || !hide_artist %>
+      <p><%= link_to song.artist.name, song.artist %></p>
+    <% end %>
 
     <p><%= song.year %></p>
-    <p><%= song.chorus %></p>
+    <p><%= simple_format song.chorus %></p>
 
   </div>
 </div>
