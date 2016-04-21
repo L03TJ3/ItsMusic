@@ -1,5 +1,18 @@
-<h1>Artists</h1>
-
-<% @artists.each do |artist| %>
-  <p><%= link_to artist.name, artist %></p>
-<% end %>
+<%= render 'shared/welcome' %>
+<%= render '/shared/menu' %>
+<div class="placeholder"></div>
+<div class="container">
+  <h1>Artists</h1>
+    <div class="ar-index">
+      <% @artists.each do |artist| %>
+        <div class="overview">
+          <div class="ar-img">
+            <%= link_to image_tag(artist.image, class: 'index-img'), artist %>
+          </div>
+          <div class="ar-link">
+            <%= link_to artist.name, artist %>
+          </div>
+        </div>
+      <% end %>
+    </div>
+</div>
