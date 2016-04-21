@@ -1,8 +1,10 @@
-<h1><%= song.title %></h1>
+<div class="container-songs">
+  <h1><%= @song.title %></h1>
 
-<%= link_to @song.artist.name, @song.artist %>
-<br />
-<%= @song.year %>
-<%= @song.chorus %>
+  <%= link_to @song.artist.name, @song.artist %>
+  <br />
+  <%= @song.year %>
+  <%= simple_format @song.chorus %>
 
-<%= @song.cover %>
+  <%= image_tag(@song.cover, class: "song_img") %>
+</div>

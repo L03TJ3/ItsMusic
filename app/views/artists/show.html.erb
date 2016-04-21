@@ -1,7 +1,16 @@
-<h1><%= @artist.name %></h1>
+<div class="show-container">
+  <h1><%= @artist.name %></h1>
 
-<h3><%= @artist.country %></h3>
+  <p><%= image_tag(@artist.image, class: "artist_img") %></p>
 
-<p><%= simple_format @artist.bio %></p>
+  <h3><%= @artist.country %></h3>
 
-<p><%= @artist.image %></p>
+  <p><%= simple_format @artist.bio %></p>
+
+
+  <h2> Songs </h2>
+
+  <% songs = @artist.songs.sort_by { |song| song.year } %>
+
+  <%= render songs, hide_artist: true %>
+</div>
