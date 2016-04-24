@@ -97,7 +97,8 @@ Song.create(
            I welcome with my hands
            And the red sun sinks at last into the hills of gold
            And peace to this young warrior without the sound of guns",
-  cover: "ghettogospel.jpg"
+  cover: "ghettogospel.jpg",
+  youtube: "https://www.youtube.com/watch?v=Do5MMmEygsY"
 )
 
 Song.create(
@@ -106,7 +107,8 @@ Song.create(
   year: 1993,
   chorus: "Keep ya head up, oooo child things are gonna get easier
            Ooooo child things are gonna get brighter [2x]",
-  cover: "headup.jpg"
+  cover: "headup.jpg",
+  youtube: "https://www.youtube.com/watch?v=XW--IGAfeas"
 )
 
 Song.create(
@@ -117,7 +119,8 @@ Song.create(
            Baby, I want you to want me
            Would you believe me if I said I'm in love
            Baby, I want you",
-  cover: "powertrip.jpg"
+  cover: "powertrip.jpg",
+  youtube: "https://www.youtube.com/watch?v=7AjD7nKiUQ4"
 )
 
 Song.create(
@@ -133,7 +136,8 @@ Song.create(
            Like, 'is it the real thing
            Or is it just a one night stand?'
            Well then",
-  cover: "workout.jpg"
+  cover: "workout.jpg",
+  youtube: "https://www.youtube.com/watch?v=6PN78PS_QsM"
 )
 
 Song.create(
@@ -146,7 +150,8 @@ Song.create(
            Hear the children cryin' (One heart!),
            Sayin' give thanks and praise to the Lord and I will feel all right,
            Sayin' let's get together and feel all right. ",
-  cover: "onelove.jpg"
+  cover: "onelove.jpg",
+  youtube: "https://www.youtube.com/watch?v=e7eXCkdImsY"
 )
 
 Song.create(
@@ -157,7 +162,8 @@ Song.create(
            'Cause every little thing gonna be alright
            Singing' 'Don't worry about a thing
            'Cause every little thing gonna be alright!",
-  cover: "birds.jpg"
+  cover: "birds.jpg",
+  youtube: "https://www.youtube.com/watch?v=PGYAAsHT4QE"
 )
 
 
@@ -168,7 +174,8 @@ Song.create(
   chorus: "Once I was seven years old, my momma told me
            Go make yourself some friends or you'll be lonely
            Once I was seven years old",
-  cover: "7years.jpg"
+  cover: "7years.jpg",
+  youtube: "https://www.youtube.com/watch?v=LHCob76kigA"
 )
 
 Song.create(
@@ -183,5 +190,6 @@ Song.create(
            And daddy told us never listen to the ones
            Pointing nasty fingers and making fun
 '          Cause we were good kids",
-  cover: "mamasaid.jpg"
+  cover: "mamasaid.jpg",
+  youtube: "https://www.youtube.com/watch?v=HdAkYCyCZv8"
 )
