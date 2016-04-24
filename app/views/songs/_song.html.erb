@@ -4,7 +4,7 @@
     <%= image_tag(song.cover, class: "song_img") %>
   </div>
 
-  <div class="song details">
+  <div class="song_details">
     <h2><%= link_to song.title, song %></h2>
 
     <% if !defined?(hide_artist) || !hide_artist %>

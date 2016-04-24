@@ -1,0 +1,42 @@
+.show-container{
+  color: white;
+  width: 46%;
+  margin-top: 10px;
+  margin-left: 27%;
+  border: 1px solid white;
+}
+.art-head-img {
+  border: 1px solid white;
+  display: inline-block;
+  padding: 10px;
+  text-align: center;
+  width: 270px;
+  margin-left: 15px;
+}
+
+.art-bio {
+  display: inline-block;
+  border: 1px solid white;
+  padding: 50px;
+  margin-left: 8px;
+  margin-top: 10px;
+}
+.art-songs {
+  display: block;
+  border: 1px solid white;
+  padding: 10px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.art-songs-desc {
+  display: inline-block;
+  width: 100%;
+}
+
+.cover {
+  display: inline-block;
+}
+.song_details {
+  display: inline-block
+}

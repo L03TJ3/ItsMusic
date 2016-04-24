@@ -1,7 +1,7 @@
 .menu-nav {
   position: relative;
   width: 60%;
-  height: 100px;
+  height: 20%;
   background: #605858;
   margin-left: 20%;
   margin-top: 10px;
@@ -14,8 +14,8 @@
   padding: 0;
   list-style-type: none;
   text-align: center;
-  background: #605858;
   border-radius: 20px;
+
 }
 .menu-nav ul li {
   position: relative;
