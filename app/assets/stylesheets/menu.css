@@ -28,3 +28,8 @@
   font-size: 25px;
   cursor: pointer;
 }
+
+.menu-item {
+  text-decoration: none;
+  color: black;
+}

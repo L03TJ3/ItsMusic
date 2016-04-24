@@ -97,7 +97,7 @@ Song.create(
            I welcome with my hands
            And the red sun sinks at last into the hills of gold
            And peace to this young warrior without the sound of guns",
-  cover: "ghettohospel.jpg"
+  cover: "ghettogospel.jpg"
 )
 
 Song.create(
