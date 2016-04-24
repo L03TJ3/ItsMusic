@@ -16,6 +16,12 @@
         <br />
         <%= @song.year %>
         <%= simple_format @song.chorus %>
+
+      </div>
+
+      <div class="youtube-player">
+        <%= embed(@song.youtube) %>
+        <iframe width="560" height="315" src= "<%= @youtube_url %>" frameborder="1" allowfullscreen></iframe>
       </div>
 
     </div>
