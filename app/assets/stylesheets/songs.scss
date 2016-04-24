@@ -5,4 +5,24 @@
 .container-songs {
   color: white;
 /*  text-align: center; */
+border: 1px solid white;
+width: 75%;
+margin-left: 12%;
+margin-top: 10px;
+}
+.song-overview {
+  text-align: center;
+  display: inline-block;
+  margin-left: 28%;
+  color: #a1a522;
+}
+
+.song-desc {
+  display: inline-block;
+  vertical-align: top;
+  font-size:25px;
+}
+.song-desc-img {
+  display: inline-block;
+  vertical-align: bottom;
 }

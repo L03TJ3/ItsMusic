@@ -1,12 +1,22 @@
 <%= render 'shared/menu' %>
 
 <div class="container-songs">
-  <h1><%= @song.title %></h1>
+  <h1 style="text-align: center;"><%= @song.title %></h1>
+    <div class="song-overview">
 
-  <%= link_to @song.artist.name, @song.artist %>
-  <br />
-  <%= @song.year %>
-  <%= simple_format @song.chorus %>
 
-  <%= image_tag(@song.cover, class: "song_img") %>
+      <div class="song-desc-img">
+
+        <%= image_tag(@song.cover, class: "song_img") %>
+      </div>
+
+      <div class="song-desc">
+
+        <%= link_to @song.artist.name, @song.artist %>
+        <br />
+        <%= @song.year %>
+        <%= simple_format @song.chorus %>
+      </div>
+
+    </div>
 </div>
