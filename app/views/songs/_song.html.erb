@@ -5,7 +5,7 @@
   </div>
 
   <div class="song_details">
-    <h2><%= link_to song.title, song %></h2>
+    <h2><%= link_to song.title, artist_song_path(@artist.id, song.id) %></h2>
 
     <% if !defined?(hide_artist) || !hide_artist %>
       <p><%= link_to song.artist.name, song.artist %></p>
