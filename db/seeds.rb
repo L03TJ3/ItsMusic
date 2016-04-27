@@ -16,7 +16,7 @@ Artist.create(
         Artists of All Time. He is consistently ranked as one
         of the greatest rappers ever, as well as one of the most
         influential rappers of all time.",
-  image: "tupac.jpg"
+  ar_cover: "tupac.jpg"
 )
 Artist.create(
   name: "J. Cole",
@@ -31,7 +31,7 @@ Artist.create(
         Roc Nation. In that same year, Cole released his second
         mixtape, The Warm Up, which was itself followed by Cole's
         third mixtape, Friday Night Lights, in 2010.",
-  image: "jcole.jpg"
+  ar_cover: "jcole.jpg"
 )
 
 Artist.create(
@@ -65,7 +65,7 @@ Artist.create(
         culture and identity. Marley has also evolved into a
         global symbol, which has been endlessly merchandised
         through a variety of mediums.",
-  image: "marley.jpg"
+  ar_cover: "marley.jpg"
 )
 
 Artist.create(
@@ -84,7 +84,7 @@ Artist.create(
         release of their two singles 'Mama Said' and '7 Years', the
         latter of which topped various international charts.
         Their second album was released internationally on April 1",
-  image: "graham.jpg"
+  ar_cover: "graham.jpg"
 )
 
 Song.delete_all
