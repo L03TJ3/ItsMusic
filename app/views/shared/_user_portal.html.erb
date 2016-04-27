@@ -1,0 +1,19 @@
+<% if user_signed_in? %>
+  <div class="portal-button">
+    <p> Logged in as:
+        <%= current_user.email %>
+    </p>
+    <%= image_tag("settings.png", class: 'settings-icon') %>
+
+  </div>
+
+  <div class="portal-container" style="display: none;">
+    <h1>Settings</h1>
+    <ul>
+      <li> Profile </li>
+      <li> Add Artist </li>
+      <li> Add Song </li>
+    </ul>
+  </div>
+
+<% end %>

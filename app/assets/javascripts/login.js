@@ -17,5 +17,4 @@ $(document).ready(function() {
 // it won't work after navigating pages
 $(document).on('click', '.login-button', function(event) {
   $(".login").animate({height: 'toggle'}, 350);
-  $(".login-button").animate("active"), 350;
 });

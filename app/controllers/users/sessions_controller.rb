@@ -14,7 +14,7 @@ class Users::SessionsController < Devise::SessionsController
 
     if resource.valid_password?(params[:user][:password])
       sign_in :user, resource
-      message = "Welcome User, Nice of you to join us today"
+      message = "Welcome #{resource.email}, Nice of you to join us today"
       flash[:notice] = message
       redirect_to root_path
 
