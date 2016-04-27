@@ -18,3 +18,6 @@ $(document).ready(function() {
 $(document).on('click', '.login-button', function(event) {
   $(".login").animate({height: 'toggle'}, 350);
 });
+$(document).on('click', '.register-button', function(event) {
+  $(".register").animate({height: 'toggle'}, 350);
+});
