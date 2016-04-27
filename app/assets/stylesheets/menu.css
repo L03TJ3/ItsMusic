@@ -2,16 +2,17 @@
   position: relative;
   width: 60%;
   height: 20%;
-  background: #605858;
+  background: #751A1A;
   margin-left: 20%;
   margin-top: 10px;
   border-radius: 20px;
   border: 1px solid white;
+  color: #D4AA30;
 }
 
 .menu-nav a {
   text-decoration: none;
-  color: black;
+  color: #D4AA30;
 }
 
 .menu-nav ul {
@@ -38,4 +39,36 @@
 .menu-item {
   text-decoration: none;
   color: black;
+}
+
+/* Notice and Alert Messages */
+.notice {
+  background: green;
+  background-color: rgba(25,255,0, 0.5);
+  width: 50%;
+  font-size: 30px;
+  margin-left: 100px;
+  border-radius: 10px;
+}
+
+.alert {
+  background: red;
+  background-color: rgba(255,0,0, 0.5);
+  font-size: 30px;
+  width: 50%;
+  color: white;
+  border-radius: 10px;
+}
+
+/* Login Form */
+
+.login {
+  width: 12%;
+  height: 12%;
+  background: #efefef;
+  margin-left: 42%;
+  text-align: center;
+  padding: 2%;
+  border-radius: 20px;
+  border: 1px solid white;
 }
