@@ -3,6 +3,10 @@ source 'https://rubygems.org'
 # Self added gems
 
 gem 'devise', '~> 3.5'
+gem 'carrierwave'
+gem 'cloudinary'
+
+# -------- end of self added gems --------
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
