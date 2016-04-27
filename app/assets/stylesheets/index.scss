@@ -20,7 +20,7 @@ body {
 }
 
 .container h1 {
-  color: white;
+  color: #D4AA30;
 }
 
 .ar-link a {
@@ -32,6 +32,7 @@ body {
 .index-img {
   width: 100px;
   height: 100px;
+  border-radius: 50px;
 }
 
 .placeholder {
@@ -44,10 +45,10 @@ body {
 
 .ar-index {
   background: #544e4e;
-  background-color: rgba(84,78,78, 0.5);
+  background-color: rgba(65,34,80, 0.5);
   border-radius: 20px;
   text-align: left;
-  border: 60px solid grey;
+  border: 60px solid #751A1A;
   z-index: 2;
   margin-top: -80px;
 }
