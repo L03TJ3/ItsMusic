@@ -87,8 +87,6 @@ Artist.create(
   ar_cover: "graham.jpg"
 )
 
-Song.delete_all
-
 Song.create(
   title: "Ghetto Gospel (with elton john)",
   artist_id: 1,
