@@ -87,107 +87,107 @@ Artist.create(
   ar_cover: "graham.jpg"
 )
 
-# Song.create(
-#   title: "Ghetto Gospel (with elton john)",
-#   artist_id: 1,
-#   year: 2004,
-#   chorus: "Those who wish to follow me (my ghetto gospel)
-#            I welcome with my hands
-#            And the red sun sinks at last into the hills of gold
-#            And peace to this young warrior without the sound of guns",
-#   cover: "ghettogospel.jpg",
-#   youtube: "https://www.youtube.com/watch?v=Do5MMmEygsY"
-# )
-#
-# Song.create(
-#   title: "Keep Ya Head Up",
-#   artist_id: 1,
-#   year: 1993,
-#   chorus: "Keep ya head up, oooo child things are gonna get easier
-#            Ooooo child things are gonna get brighter [2x]",
-#   cover: "headup.jpg",
-#   youtube: "https://www.youtube.com/watch?v=XW--IGAfeas"
-# )
-#
-# Song.create(
-#   title: "Power Trip",
-#   artist_id: 2,
-#   year: 2013,
-#   chorus: "Would you believe me if I said I'm in love
-#            Baby, I want you to want me
-#            Would you believe me if I said I'm in love
-#            Baby, I want you",
-#   cover: "powertrip.jpg",
-#   youtube: "https://www.youtube.com/watch?v=7AjD7nKiUQ4"
-# )
-#
-# Song.create(
-#   title: "Work Out",
-#   artist_id: 2,
-#   year: 2011,
-#   chorus: "Ay, we've got a good thing
-#            Don’t know if I’mma see you again
-#            But is that a good thing?
-#            Cause girl, I can’t be your man, no ma'am
-#            I know what's on your brain
-#            You probably hope it never would end
-#            Like, 'is it the real thing
-#            Or is it just a one night stand?'
-#            Well then",
-#   cover: "workout.jpg",
-#   youtube: "https://www.youtube.com/watch?v=6PN78PS_QsM"
-# )
-#
-# Song.create(
-#   title: "One Love",
-#   artist_id: 3,
-#   year: 1977,
-#   chorus: "One love! One heart!
-#            Let's get together and feel all right.
-#            Hear the children cryin' (One love!)
-#            Hear the children cryin' (One heart!),
-#            Sayin' give thanks and praise to the Lord and I will feel all right,
-#            Sayin' let's get together and feel all right. ",
-#   cover: "onelove.jpg",
-#   youtube: "https://www.youtube.com/watch?v=e7eXCkdImsY"
-# )
-#
-# Song.create(
-#   title: "Three Little Birds",
-#   artist_id: 3,
-#   year: 1977,
-#   chorus: "Don't worry about a thing
-#            'Cause every little thing gonna be alright
-#            Singing' 'Don't worry about a thing
-#            'Cause every little thing gonna be alright!",
-#   cover: "birds.jpg",
-#   youtube: "https://www.youtube.com/watch?v=PGYAAsHT4QE"
-# )
-#
-#
-# Song.create(
-#   title: "7 years",
-#   artist_id: 4,
-#   year: 2015,
-#   chorus: "Once I was seven years old, my momma told me
-#            Go make yourself some friends or you'll be lonely
-#            Once I was seven years old",
-#   cover: "7years.jpg",
-#   youtube: "https://www.youtube.com/watch?v=LHCob76kigA"
-# )
-#
-# Song.create(
-#   title: "Mama Said",
-#   artist_id: 4,
-#   year: 2014,
-#   chorus: "When mama said that is was okay
-#            Mama said that it was quite alright
-#            Our kind of people had a bed for the night
-#            And it was okay
-#            Mama told us we were good kids
-#            And daddy told us never listen to the ones
-#            Pointing nasty fingers and making fun
-# '          Cause we were good kids",
-#   cover: "mamasaid.jpg",
-#   youtube: "https://www.youtube.com/watch?v=HdAkYCyCZv8"
-# )
+Song.create(
+  title: "Ghetto Gospel (with elton john)",
+  artist_id: 1,
+  year: 2004,
+  chorus: "Those who wish to follow me (my ghetto gospel)
+           I welcome with my hands
+           And the red sun sinks at last into the hills of gold
+           And peace to this young warrior without the sound of guns",
+  cover: "ghettogospel.jpg",
+  youtube: "https://www.youtube.com/watch?v=Do5MMmEygsY"
+)
+
+Song.create(
+  title: "Keep Ya Head Up",
+  artist_id: 1,
+  year: 1993,
+  chorus: "Keep ya head up, oooo child things are gonna get easier
+           Ooooo child things are gonna get brighter [2x]",
+  cover: "headup.jpg",
+  youtube: "https://www.youtube.com/watch?v=XW--IGAfeas"
+)
+
+Song.create(
+  title: "Power Trip",
+  artist_id: 2,
+  year: 2013,
+  chorus: "Would you believe me if I said I'm in love
+           Baby, I want you to want me
+           Would you believe me if I said I'm in love
+           Baby, I want you",
+  cover: "powertrip.jpg",
+  youtube: "https://www.youtube.com/watch?v=7AjD7nKiUQ4"
+)
+
+Song.create(
+  title: "Work Out",
+  artist_id: 2,
+  year: 2011,
+  chorus: "Ay, we've got a good thing
+           Don’t know if I’mma see you again
+           But is that a good thing?
+           Cause girl, I can’t be your man, no ma'am
+           I know what's on your brain
+           You probably hope it never would end
+           Like, 'is it the real thing
+           Or is it just a one night stand?'
+           Well then",
+  cover: "workout.jpg",
+  youtube: "https://www.youtube.com/watch?v=6PN78PS_QsM"
+)
+
+Song.create(
+  title: "One Love",
+  artist_id: 3,
+  year: 1977,
+  chorus: "One love! One heart!
+           Let's get together and feel all right.
+           Hear the children cryin' (One love!)
+           Hear the children cryin' (One heart!),
+           Sayin' give thanks and praise to the Lord and I will feel all right,
+           Sayin' let's get together and feel all right. ",
+  cover: "onelove.jpg",
+  youtube: "https://www.youtube.com/watch?v=e7eXCkdImsY"
+)
+
+Song.create(
+  title: "Three Little Birds",
+  artist_id: 3,
+  year: 1977,
+  chorus: "Don't worry about a thing
+           'Cause every little thing gonna be alright
+           Singing' 'Don't worry about a thing
+           'Cause every little thing gonna be alright!",
+  cover: "birds.jpg",
+  youtube: "https://www.youtube.com/watch?v=PGYAAsHT4QE"
+)
+
+
+Song.create(
+  title: "7 years",
+  artist_id: 4,
+  year: 2015,
+  chorus: "Once I was seven years old, my momma told me
+           Go make yourself some friends or you'll be lonely
+           Once I was seven years old",
+  cover: "7years.jpg",
+  youtube: "https://www.youtube.com/watch?v=LHCob76kigA"
+)
+
+Song.create(
+  title: "Mama Said",
+  artist_id: 4,
+  year: 2014,
+  chorus: "When mama said that is was okay
+           Mama said that it was quite alright
+           Our kind of people had a bed for the night
+           And it was okay
+           Mama told us we were good kids
+           And daddy told us never listen to the ones
+           Pointing nasty fingers and making fun
+'          Cause we were good kids",
+  cover: "mamasaid.jpg",
+  youtube: "https://www.youtube.com/watch?v=HdAkYCyCZv8"
+)
