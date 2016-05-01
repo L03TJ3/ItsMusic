@@ -7,7 +7,7 @@
       <% @artists.each do |artist| %>
         <div class="overview">
           <div class="ar-img">
-            <%= link_to image_tag(artist.ar_cover , class: 'index-img'), artist %>
+            <%= link_to image_tag(artist.arcover.url , class: 'index-img'), artist %>
           </div>
           <div class="ar-link">
             <%= link_to artist.name, artist %>
