@@ -1,5 +1,10 @@
 Artist.delete_all
 
+tupac = File.open(File.join(Rails.root, '/public/images/artists/tupac.jpg'))
+jcole = File.open(File.join(Rails.root, '/public/images/artists/jcole.jpg'))
+marley = File.open(File.join(Rails.root, '/public/images/artists/marley.jpg'))
+graham = File.open(File.join(Rails.root, '/public/images/artists/graham.jpg'))
+
 Artist.create(
   name: "Tupac Shakur",
   country: "United States",
@@ -16,7 +21,7 @@ Artist.create(
         Artists of All Time. He is consistently ranked as one
         of the greatest rappers ever, as well as one of the most
         influential rappers of all time.",
-  ar_cover: "tupac.jpg"
+  arcover: tupac
 )
 Artist.create(
   name: "J. Cole",
@@ -31,7 +36,7 @@ Artist.create(
         Roc Nation. In that same year, Cole released his second
         mixtape, The Warm Up, which was itself followed by Cole's
         third mixtape, Friday Night Lights, in 2010.",
-  ar_cover: "jcole.jpg"
+  arcover: jcole
 )
 
 Artist.create(
@@ -65,7 +70,7 @@ Artist.create(
         culture and identity. Marley has also evolved into a
         global symbol, which has been endlessly merchandised
         through a variety of mediums.",
-  ar_cover: "marley.jpg"
+  arcover: marley
 )
 
 Artist.create(
@@ -84,8 +89,18 @@ Artist.create(
         release of their two singles 'Mama Said' and '7 Years', the
         latter of which topped various international charts.
         Their second album was released internationally on April 1",
-  ar_cover: "graham.jpg"
+  arcover: graham
 )
+
+ghettogospel = File.open(File.join(Rails.root, '/public/images/covers/ghettogospel.jpg'))
+headup = File.open(File.join(Rails.root, '/public/images/covers/headup.jpg'))
+powertrip = File.open(File.join(Rails.root, '/public/images/covers/powertrip.jpg'))
+workout = File.open(File.join(Rails.root, '/public/images/covers/workout.jpg'))
+crooked = File.open(File.join(Rails.root, 'public/images/covers/crookedsmile.jpg'))
+onelove = File.open(File.join(Rails.root, '/public/images/covers/onelove.jpg'))
+birds = File.open(File.join(Rails.root, '/public/images/covers/birds.jpg'))
+years = File.open(File.join(Rails.root, '/public/images/covers/7years.jpg'))
+mamasaid = File.open(File.join(Rails.root, '/public/images/covers/mamasaid.jpg'))
 
 Song.create(
   title: "Ghetto Gospel (with elton john)",
@@ -95,7 +110,7 @@ Song.create(
            I welcome with my hands
            And the red sun sinks at last into the hills of gold
            And peace to this young warrior without the sound of guns",
-  cover: "ghettogospel.jpg",
+  cover: ghettogospel,
   youtube: "https://www.youtube.com/watch?v=Do5MMmEygsY"
 )
 
@@ -105,7 +120,7 @@ Song.create(
   year: 1993,
   chorus: "Keep ya head up, oooo child things are gonna get easier
            Ooooo child things are gonna get brighter [2x]",
-  cover: "headup.jpg",
+  cover: headup,
   youtube: "https://www.youtube.com/watch?v=XW--IGAfeas"
 )
 
@@ -117,7 +132,7 @@ Song.create(
            Baby, I want you to want me
            Would you believe me if I said I'm in love
            Baby, I want you",
-  cover: "powertrip.jpg",
+  cover: powertrip,
   youtube: "https://www.youtube.com/watch?v=7AjD7nKiUQ4"
 )
 
@@ -134,8 +149,20 @@ Song.create(
            Like, 'is it the real thing
            Or is it just a one night stand?'
            Well then",
-  cover: "workout.jpg",
+  cover: workout,
   youtube: "https://www.youtube.com/watch?v=6PN78PS_QsM"
+)
+
+Song.create(
+  title: "Crooked Smile (Feat. TLC)",
+  artist_id: 2,
+  year: 2013,
+  chorus: "On my way, on my way, on my way down
+           On my way, on my way, on my way down
+           You were the one that was tryin' keep me way down
+           But like the son now you know I find my way back round",
+  cover: crooked,
+  youtube: "https://www.youtube.com/watch?v=fzzMOMkjm8A"
 )
 
 Song.create(
@@ -148,7 +175,7 @@ Song.create(
            Hear the children cryin' (One heart!),
            Sayin' give thanks and praise to the Lord and I will feel all right,
            Sayin' let's get together and feel all right. ",
-  cover: "onelove.jpg",
+  cover: onelove,
   youtube: "https://www.youtube.com/watch?v=e7eXCkdImsY"
 )
 
@@ -160,7 +187,7 @@ Song.create(
            'Cause every little thing gonna be alright
            Singing' 'Don't worry about a thing
            'Cause every little thing gonna be alright!",
-  cover: "birds.jpg",
+  cover: birds,
   youtube: "https://www.youtube.com/watch?v=PGYAAsHT4QE"
 )
 
@@ -172,7 +199,7 @@ Song.create(
   chorus: "Once I was seven years old, my momma told me
            Go make yourself some friends or you'll be lonely
            Once I was seven years old",
-  cover: "7years.jpg",
+  cover: years,
   youtube: "https://www.youtube.com/watch?v=LHCob76kigA"
 )
 
@@ -188,6 +215,6 @@ Song.create(
            And daddy told us never listen to the ones
            Pointing nasty fingers and making fun
 '          Cause we were good kids",
-  cover: "mamasaid.jpg",
+  cover: mamasaid,
   youtube: "https://www.youtube.com/watch?v=HdAkYCyCZv8"
 )
