@@ -13,7 +13,7 @@ the videoclip. (Currently not implemented yet)
 There is a current beta version running on heroku:
 http://mighty-brushlands-32339.herokuapp.com/
 
-You can already register an account there and new artists.
+You can already register an account there and add new artists.
 
 Functionalities that are planned for implementation:
 
@@ -26,7 +26,9 @@ Functionalities that are planned for implementation:
 
 * profile page for user
 
-* And a lot of styling tweaks!!
+* A lot of styling tweaks!!
+
+And of course much more as I continue building this app
 
 Please feel free to check out the first beta version on heroku,
 If you have feedback Let me know!
