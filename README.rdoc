@@ -1,28 +1,32 @@
-== README
+== ItsMusic (Work in progress)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+As a bootcamp project we got the task to build an music application,
+and that's where ItsMusic started.
 
-Things you may want to cover:
+ItsMusic is an opensource music application build in Ruby On Rails,
+where all kinds of artists can be added. Popular ones, Ones you just like,
+or maybe you wanna showcase your own music.
 
-* Ruby version
+When adding songs you can also send the youtube-watch link along and show,
+the videoclip. (Currently not implemented yet)
 
-* System dependencies
+There is a current beta version running on heroku:
+http://mighty-brushlands-32339.herokuapp.com/
 
-* Configuration
+You can already register an account there and new artists.
 
-* Database creation
+Functionalities that are planned for implementation:
 
-* Database initialization
+* Adding new songs to artists
 
-* How to run the test suite
+* Search function (on songs & artists)
 
-* Services (job queues, cache servers, search engines, etc.)
+* Randomize (function where users gets send to a random song on the app)
+----- ( With the idea that users maybe can find their new golden record ) -----
 
-* Deployment instructions
+* profile page for user
 
-* ...
+* And a lot of styling tweaks!!
 
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+Please feel free to check out the first beta version on heroku,
+If you have feedback Let me know!
