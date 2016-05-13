@@ -5,6 +5,7 @@ source 'https://rubygems.org'
 gem 'devise', '~> 3.5'
 gem 'carrierwave'
 gem 'cloudinary'
+gem 'materialize-sass'
 
 # -------- end of self added gems --------
 
